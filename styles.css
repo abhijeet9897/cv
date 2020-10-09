@@ -36,9 +36,7 @@ p{
   width: 15%;
   border-radius: 50%;
 }
-span{
-  text-decoration: underline;
-}
+
 .div2{
   background-color: #ebecf1;
 }
@@ -48,5 +46,21 @@ span{
 }
 .contacts01{
   width: 15%;
+  border-radius: 50%;
+}
+span{
+  font-size: 2rem;
+  padding:0 5px ;
+  font-family: Sacramento;
+  text-decoration:none;
+  color: pink;
+}
+a{
+  text-decoration:none;
+
+
+}
+span:hover{
+  background-color: white;
   border-radius: 50%;
 }
