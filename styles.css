@@ -17,6 +17,7 @@ body{
 }
 h2{
   font-size: 35px;
+  color: #66BFBF;
   font-family: 'Sacramento', serif;
 }
 .name{
@@ -24,7 +25,8 @@ h2{
   font-size: 30px;
 
 }
-p{
+.pp{
+  color: #66BFBF;
   font-family: 'Merriweather', serif;
 }
 .cloud-b{
@@ -35,8 +37,33 @@ p{
 .skillpic{
   width: 15%;
   border-radius: 50%;
+  position: relative;
+  right: 400px;
+  top: 230px;
 }
+.skil{
+  position:relative;
+  bottom:170px;
+}
+.inskill{
 
+  padding:30px 0px;
+  text-align:left;
+  width:60%;
+  position:relative;
+  left: 500px;
+}
+.incontact{
+  padding:30px 0px;
+  text-align: left;
+  width:60%;
+  position: relative;
+  right:-30px;
+  }
+.contacts01{
+  position:absolute;
+  right:200px
+}
 .div2{
   background-color: #ebecf1;
 }
@@ -61,6 +88,24 @@ a{
 
 }
 span:hover{
-  background-color: white;
+  background-color: white ;
   border-radius: 50%;
+}
+p{
+  color:black;
+}
+.contact{
+  position:relative;
+  bottom:100px;
+}
+.links{
+  background-color: #11999e;
+  margin:auto;
+  height:50px;
+  width:80%;
+}
+h3{
+  text-align:center;
+  padding-top:10px
+
 }
